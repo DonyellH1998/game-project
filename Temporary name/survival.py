@@ -3,8 +3,8 @@ import time
 import msvcrt as m
 
 #To make sure sentences stay more or less the same length throughout the game
-#   slowprint('Only thing you do remember that matters is your name. “My name is {player.name}”, you say to yourself.')
-#           slowprint('Only thing you do remember that matters is your name. “My name is {player.name}”, you say to yourself.')   
+#   slowprint('“Ugh, I feel like my head just went into a rollercoaster that was going into a blender that’s using a ')
+#           slowprint('“Ugh, I feel like my head just went into a rollercoaster that was going into a blender that’s using a ')   
 def slowprint(s):
     #Used to print text slowly
     for c in s + '\n':
