@@ -86,7 +86,7 @@ def what_to_do(gender, player_name):
     while choice != 'look around':
         if choice == 'look at your body':
             if gender == 'male':
-                slowprint('While looking at your body, first thing you realize is that you have a gut. Not big enough ')
+                slowprint('While looking at your body, the first thing you realize is that you have a gut. Not big enough ')
                 slowprint('to be called fat, but not small enough to “not see”. ')
                 slowprint('You know what I mean, right? ')
                 wait()
@@ -157,7 +157,7 @@ def what_to_do2(choice1, choice2):
             choice = input('Answer: ').lower()
 
     if choice == 'inspect the "glowing signs"':
-        slowprint('You look more closely to each portal, and you realize that each portal has a different sign on ')
+        slowprint('You look more closely at each portal, and you realize that each portal has a different sign on ')
         slowprint(f'them. “{choice1.capitalize()}”, “{choice2.capitalize()}” and “choice3”. ')
         wait()
         slowprint('The portal that seems “turned off”, the sign on top of this portal is blank. You don’t give ')
@@ -180,7 +180,7 @@ def what_to_do3():
         slowprint('think but you can’t move your body, it’s basically like sleep paralysis. ')
         wait()
         slowprint('You can’t tell how long you’re in this state, but you know one thing for sure, ')
-        slowprint('you don’t know what you’re expecting at the other side. ')
+        slowprint('you don’t know what you’re expecting on the other side. ')
         wait()
         survival.survival_portal()
     elif choice == 'shooter portal':
@@ -189,7 +189,7 @@ def what_to_do3():
         slowprint('think but you can’t move your body, it’s basically like sleep paralysis. ')
         wait()
         slowprint('You can’t tell how long you’re in this state, but you know one thing for sure, ')
-        slowprint('you don’t know what you’re expecting at the other side. ')
+        slowprint('you don’t know what you’re expecting on the other side. ')
         wait()
     else:
         slowprint('Choose one of the answers listed above!')
@@ -235,10 +235,10 @@ choice_to_do2()
 
 what_to_do2(player.primarygenre, player.secondarygenre)
 
-slowprint('As you see read whatever is on top of the portal, you realize that it kind of sounds familiar, ')
+slowprint('As you read whatever is on top of the portal, you realize that it kind of sounds familiar, ')
 slowprint('but can’t quite put your finger on it. ')
 wait()
-slowprint('Only option is that you can think of at the moment is to walk into one of these portals. ')
+slowprint('Only option that you can think of at the moment is to walk into one of these portals. ')
 wait()
 
 choice_to_do3(player.primarygenre, player.secondarygenre)

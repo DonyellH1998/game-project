@@ -19,7 +19,7 @@ def wait():
 
 def start():
     
-    slowprint('\nAs you come too, you’re awaken by rumbling and beeping sounds all over you. As you look around you, ')
+    slowprint('\nAs you come too, you’re awakened by rumbling and beeping sounds all over you. As you look around you, ')
     slowprint('you see that you’re flying an airplane. It’s a one-seater, but you realize that instead of flying ')
     slowprint('straight or up, you’re diving straight down, and one of your wings is on fire. But, for some reason, ')
     slowprint('you feel composed and relaxed, and you’re thinking straight.')
@@ -119,7 +119,7 @@ def survival_portal():
     slowprint('that this was “supposed” to happen. But at the same time, you just think that you had a stroke of luck. \n')
 
     slowprint('As you get closer to the island, you realize that you’re about to land on a white sand beach. As you land ')
-    slowprint('(surprisingly smooth, you thought), you take of your seatbelt and look around you. As you saw earlier, ')
+    slowprint('(surprisingly smooth, you thought), you take off your seatbelt and look around you. As you saw earlier, ')
     slowprint('you are on a white sand beach.')
 
     surv_choice_to_do2()
