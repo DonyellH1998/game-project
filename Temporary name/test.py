@@ -10,10 +10,10 @@ def slowprint(s):
         time.sleep(1./35)
 
 def wrap(p):
-    #Uses textwrap module to 
-    wrapper = textwrap.TextWrapper(width=75, break_long_words=False, replace_whitespace=False)
-    dedented_text = textwrap.dedent(text=p).strip()
-    wrap_list = wrapper.wrap(dedented_text)
+    #Uses textwrap module to keep sentences printed out to a max of 95
+    wrapper = textwrap.TextWrapper(width=95, break_long_words=False, replace_whitespace=False)
+    #dedented_text = textwrap.dedent(text=p).strip()
+    wrap_list = wrapper.wrap(p)
 
     for line in wrap_list:
         slowprint(line)
